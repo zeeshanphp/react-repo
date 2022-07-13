@@ -10,17 +10,19 @@ import './css/bootstrap.min.css'
 import Ustate from './Components/Ustate';
 import Pstate from './Pstate';
 import Listouput from './Components/Listoutput';
+import StateHook from './Components/StateHook';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   
   <React.StrictMode>
     <Menu />
-    <Finf />
+    <StateHook />
+    {/* <Finf />
     <App />
     <Dynam />
     <Ustate />
     <Pstate />
-    <Listouput />
+    <Listouput /> */}
   </React.StrictMode>
 );
 
