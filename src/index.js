@@ -11,12 +11,14 @@ import Ustate from './Components/Ustate';
 import Pstate from './Pstate';
 import Listouput from './Components/Listoutput';
 import StateHook from './Components/StateHook';
+import StateHookOnChange from './Components/StateHookOnChange';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   
   <React.StrictMode>
     <Menu />
     <StateHook />
+    <StateHookOnChange />
     {/* <Finf />
     <App />
     <Dynam />

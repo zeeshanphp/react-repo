@@ -21,9 +21,11 @@ const [count , setCount] = useState(0);
 }
 return(
     <Fragment>
+<center><h2 className="text-success">COUNTER USING USESTATE </h2>
+
 <h4>{count}</h4>
-<button onClick={addState}>ADD</button>
-<button onClick={subState}>SUB</button>
+<button onClick={addState} className="btn btn-success">ADD</button>
+<button onClick={subState} className="btn btn-danger">SUB</button></center>
 </Fragment>
 );
 
