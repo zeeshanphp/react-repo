@@ -3,11 +3,24 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-
+import Dynam from './Components/Dynam';
+import Menu from './Components/Navbar';
+import Finf from './Components/Finf';
+import './css/bootstrap.min.css'
+import Ustate from './Components/Ustate';
+import Pstate from './Pstate';
+import Listouput from './Components/Listoutput';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
+  
   <React.StrictMode>
+    <Menu />
+    <Finf />
     <App />
+    <Dynam />
+    <Ustate />
+    <Pstate />
+    <Listouput />
   </React.StrictMode>
 );
 
