@@ -12,6 +12,7 @@ import Pstate from './Pstate';
 import Listouput from './Components/Listoutput';
 import StateHook from './Components/StateHook';
 import StateHookOnChange from './Components/StateHookOnChange';
+import EffectHook from './Components/Hooks/EffectHook';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   
@@ -19,6 +20,7 @@ root.render(
     <Menu />
     <StateHook />
     <StateHookOnChange />
+    <EffectHook />
     {/* <Finf />
     <App />
     <Dynam />
