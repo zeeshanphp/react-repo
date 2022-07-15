@@ -13,15 +13,19 @@ import Listouput from './Components/Listoutput';
 import StateHook from './Components/StateHook';
 import StateHookOnChange from './Components/StateHookOnChange';
 import EffectHook from './Components/Hooks/EffectHook';
+import MapFunc from './Components/MapFunc';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   
   <React.StrictMode>
     <Menu />
-    <StateHook />
-    <StateHookOnChange />
+    
     <EffectHook />
-    {/* <Finf />
+
+    {/* <StateHook />
+    <StateHookOnChange />
+    <Finf />
+    <MapFunc />
     <App />
     <Dynam />
     <Ustate />
